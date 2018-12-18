@@ -1,0 +1,164 @@
+/*make css colouds for bottom of rainbow*/
+
+
+h1 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 50px;
+	margin: 50px 20px 30px 20px;
+}
+
+p {
+	font-family: 'Questrial', sans-serif;
+	font-size: 20px;
+	margin: 10px 20px;
+	line-height: 1.6;
+}
+
+.container {
+	display: inline-flex;
+	flex-direction: column;
+	width: 350px;
+	text-align: center;
+}
+
+.rainbow {
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 110px;
+	margin-right: 60px;
+	margin-top: 75px;
+
+}
+
+main {
+	display: inline-flex;	
+	justify-content: flex-start;
+
+}
+
+body {
+	margin: 20px 50px 20px 50px;
+	background: #87CEFA;
+
+}
+
+.tail {
+	margin-top: -10px;
+}
+
+#red {
+	height: 490px;
+	width: 650px;
+	background: white;
+	border-radius: 50% 50% 0 0;
+	border: solid grey 1px;
+}
+
+#orange {
+	height: 415px;
+	width: 550px;
+	background: white;
+	border-radius: 50% 50% 0 0;
+	position: relative;
+	top: -445px;
+	border: solid grey 1px;
+}
+
+#yellow {
+	height: 340px;
+	width: 450px;
+	background: white;
+	border-radius: 50% 50% 0 0;
+	position: relative;
+	top: -825px;
+	border: solid grey 1px;
+}
+
+#green {
+	height: 270px;
+	width: 360px;
+	background: white;
+	border-radius: 50% 50% 0 0;
+	position: relative;
+	top: -1135px;
+	border: solid grey 1px;
+}
+#blue {
+	height: 225px;
+	width: 270px;
+	background: white;
+	border-radius: 50% 50% 0 0;
+	position: relative;
+	top: -1375px;
+	border: solid grey 1px;
+}
+
+#purple {
+	height: 150px;
+	width: 175px;
+	background: white;
+	border-radius: 50% 50% 0 0;
+	position: relative;
+	top: -1573px;
+	border: solid grey 1px;
+}
+
+#rainbow-bottom {
+	height: 290px;
+	width: 652px;
+	background: #87CEFA;
+	position: relative;
+	top: -1675px;
+	border-top: solid grey 1px;
+}
+
+#cloud1, #cloud2 {
+	background-color: rgb(249, 251, 255);
+}
+
+#cloud1 {
+	width: 200px;
+	height: 200px;
+	background: white;
+	border-radius: 100px / 100px;
+	position: relative;
+	top: 280px;
+	left: -800px;
+}
+
+#cloud2 {
+	width: 200px;
+    height: 200px;
+    background: white;
+    border-radius: 100px / 100px;
+    position: relative;
+    top: 70px;
+    left: -665px;
+}
+
+#cloud3 {
+	width: 200px;
+    height: 200px;
+    background: white;
+    border-radius: 100px / 100px;
+    position: relative;
+    top: -50px;
+    left: -720px;
+}
+
+#cloud4 {
+	width: 200px;
+    height: 200px;
+    background: white;
+    border-radius: 100px / 100px;
+    position: relative;
+    top: -265px;
+    left: -600px;
+}
+
+
+
+
+
+
