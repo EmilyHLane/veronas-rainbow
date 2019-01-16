@@ -164,7 +164,7 @@ body {
 .cat {
   position: relative;
   left: -1300px;
-  top: 275px;
+  top: 300px;
   animation-name: catwalk;
   animation-duration: 2s;
 }
@@ -177,7 +177,7 @@ body {
 
   to {
     left: -1300px;
-    top: 275px;
+    top: 300px;
   }
 }
 
