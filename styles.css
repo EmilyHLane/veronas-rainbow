@@ -1,164 +1,296 @@
 /*make css colouds for bottom of rainbow*/
 
-
 h1 {
-	font-family: 'Amatic SC', cursive;
-	font-size: 50px;
-	margin: 50px 20px 30px 20px;
+  font-family: "Amatic SC", cursive;
+  font-size: 50px;
+  margin: 50px 20px 30px 20px;
 }
 
 p {
-	font-family: 'Questrial', sans-serif;
-	font-size: 20px;
-	margin: 10px 20px;
-	line-height: 1.6;
+  font-family: "Questrial", sans-serif;
+  font-size: 20px;
+  margin: 10px 20px;
+  line-height: 1.6;
 }
 
 .container {
-	display: inline-flex;
-	flex-direction: column;
-	width: 350px;
-	text-align: center;
+  display: inline-flex;
+  flex-direction: column;
+  width: 350px;
+  text-align: center;
 }
 
 .rainbow {
-	display: inline-flex;
-	flex-direction: column;
-	align-items: center;
-	margin-left: 110px;
-	margin-right: 60px;
-	margin-top: 75px;
-
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 110px;
+  margin-right: 60px;
+  margin-top: 75px;
 }
 
 main {
-	display: inline-flex;	
-	justify-content: flex-start;
-
+  display: inline-flex;
+  justify-content: flex-start;
 }
 
 body {
-	margin: 20px 50px 20px 50px;
-	background: #87CEFA;
-
+  margin: 20px 50px 20px 50px;
+  background: #87cefa;
+  height: 100vh;
 }
 
 .tail {
-	margin-top: -10px;
+  margin-top: -10px;
 }
 
-#red {
-	height: 490px;
-	width: 650px;
-	background: white;
-	border-radius: 50% 50% 0 0;
-	border: solid grey 1px;
+.red {
+  height: 490px;
+  width: 650px;
+  background: white;
+  border-radius: 50% 50% 0 0;
+  border: solid grey 1px;
 }
 
-#orange {
-	height: 415px;
-	width: 550px;
-	background: white;
-	border-radius: 50% 50% 0 0;
+.orange {
+  height: 415px;
+  width: 550px;
+  background: white;
+  border-radius: 50% 50% 0 0;
+  position: relative;
+  top: -445px;
+  border: solid grey 1px;
+}
+
+.yellow {
+  height: 340px;
+  width: 450px;
+  background: white;
+  border-radius: 50% 50% 0 0;
+  position: relative;
+  top: -825px;
+  border: solid grey 1px;
+}
+
+.green {
+  height: 270px;
+  width: 360px;
+  background: white;
+  border-radius: 50% 50% 0 0;
+  position: relative;
+  top: -1135px;
+  border: solid grey 1px;
+}
+
+.blue {
+  height: 225px;
+  width: 270px;
+  background: white;
+  border-radius: 50% 50% 0 0;
+  position: relative;
+  top: -1375px;
+  border: solid grey 1px;
+}
+
+.purple {
+  height: 150px;
+  width: 175px;
+  background: white;
+  border-radius: 50% 50% 0 0;
+  position: relative;
+  top: -1573px;
+  border: solid grey 1px;
+}
+
+.rainbow-bottom {
+  height: 290px;
+  width: 652px;
+  background: #87cefa;
+  position: relative;
+  top: -1675px;
+  border-top: solid grey 1px;
+}
+
+.cloud1,
+.cloud2 {
+  background-color: rgb(249, 251, 255);
+}
+
+.cloud1 {
+  width: 200px;
+  height: 200px;
+  background: white;
+  border-radius: 100px / 100px;
+  position: relative;
+  top: 280px;
+  left: -800px;
+}
+
+.cloud2 {
+  width: 200px;
+  height: 200px;
+  background: white;
+  border-radius: 100px;
+  position: relative;
+  top: 70px;
+  left: -665px;
+}
+
+.cloud3 {
+  width: 200px;
+  height: 200px;
+  background: white;
+  border-radius: 100px;
+  position: relative;
+  top: -50px;
+  left: -720px;
+}
+
+.cloud4 {
+  width: 200px;
+  height: 200px;
+  background: white;
+  border-radius: 100px;
+  position: relative;
+  top: -265px;
+  left: -600px;
+}
+
+/*---------------------------*/
+/*---------- Orco -----------*/
+/*---------------------------*/
+
+/*start position*/
+.cat {
+  position: relative;
+  left: -1300px;
+  top: 275px;
+  animation-name: catwalk;
+  animation-duration: 2s;
+}
+
+@keyframes catwalk {
+  from {
+    left: -700px;
+    top: 700px;
+  }
+
+  to {
+    left: -1300px;
+    top: 275px;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.ear {
+  width: 0px;
+  height: 0px;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid grey;
+}
+
+.ear-left {
+  position: relative;
+  left: 3px;
+  top: -20px;
+  transform: skewX(25deg);
+}
+
+.ear-right {
+  position: relative;
+  left: 80px;
+  top: -70px;
+  transform: skewX(-30deg);
+}
+
+.head {
+  width: 130px;
+  height: 140px;
+  background-color: grey;
+  border-radius: 50px;
+  position: relative;
+  top: -90px;
+}
+
+.body {
+  width: 270px;
+  height: 150px;
+  background-color: grey;
+  border-radius: 60px;
+  position: relative;
+  top: -135px;
+  left: 40px;
+}
+
+.tail {
+  width: 240px;
+  height: 220px;
+  border-radius: 35%;
+  box-shadow: 20px 20px grey;
+  position: relative;
+  top: -450px;
+  left: 60px;
+}
+
+.leg {
+  width: 30px;
+  height: 115px;
+  background-color: grey;
+  border-radius: 40px;
+  position: relative;
+}
+
+.front-leg-left {
+  top: -410px;
+  left: 25px;
+  transform: rotate(20deg);
+}
+
+.front-leg-right {
+  top: -525px;
+  left: 75px;
+  transform: rotate(-20deg);
+}
+
+.back-leg-left {
+  top: -620px;
+  left: 229px;
+  transform: rotate(20deg);
+}
+
+.back-leg-right {
+  top: -736px;
+  left: 285px;
+  transform: rotate(-20deg);
+}
+/*------------------------*/
+/*------- Orco sit -------*/
+/*------------------------*/
+
+/* .inner-ear-left {
+	width: 0px;
+	height: 0px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 20px solid grey;
 	position: relative;
-	top: -445px;
-	border: solid grey 1px;
-}
-
-#yellow {
-	height: 340px;
-	width: 450px;
-	background: white;
-	border-radius: 50% 50% 0 0;
+	top: -75px;
+	left: 19px;
+	transform: skewX(20deg);
+  }
+  
+  .inner-ear-right {
+	width: 0px;
+	height: 0px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 20px solid grey;
 	position: relative;
-	top: -825px;
-	border: solid grey 1px;
-}
-
-#green {
-	height: 270px;
-	width: 360px;
-	background: white;
-	border-radius: 50% 50% 0 0;
-	position: relative;
-	top: -1135px;
-	border: solid grey 1px;
-}
-#blue {
-	height: 225px;
-	width: 270px;
-	background: white;
-	border-radius: 50% 50% 0 0;
-	position: relative;
-	top: -1375px;
-	border: solid grey 1px;
-}
-
-#purple {
-	height: 150px;
-	width: 175px;
-	background: white;
-	border-radius: 50% 50% 0 0;
-	position: relative;
-	top: -1573px;
-	border: solid grey 1px;
-}
-
-#rainbow-bottom {
-	height: 290px;
-	width: 652px;
-	background: #87CEFA;
-	position: relative;
-	top: -1675px;
-	border-top: solid grey 1px;
-}
-
-#cloud1, #cloud2 {
-	background-color: rgb(249, 251, 255);
-}
-
-#cloud1 {
-	width: 200px;
-	height: 200px;
-	background: white;
-	border-radius: 100px / 100px;
-	position: relative;
-	top: 280px;
-	left: -800px;
-}
-
-#cloud2 {
-	width: 200px;
-    height: 200px;
-    background: white;
-    border-radius: 100px / 100px;
-    position: relative;
-    top: 70px;
-    left: -665px;
-}
-
-#cloud3 {
-	width: 200px;
-    height: 200px;
-    background: white;
-    border-radius: 100px / 100px;
-    position: relative;
-    top: -50px;
-    left: -720px;
-}
-
-#cloud4 {
-	width: 200px;
-    height: 200px;
-    background: white;
-    border-radius: 100px / 100px;
-    position: relative;
-    top: -265px;
-    left: -600px;
-}
-
-
-
-
-
-
+	top: -95px;
+	left: 95px;
+	transform: skewX(-20deg);
+  } */
